@@ -119,23 +119,23 @@ a {
 /*main*/
 main {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 102px;
 }
 main h2 {
-  font-size: 35px;
+  font-size: 30px;
   line-height: 50px;
   color: grey;
   letter-spacing: 1px;
   text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 .main-circle-active-centr {
   margin: 0 auto;
-  width: 43px;
-  height: 43px;
+  width: 53px;
+  height: 53px;
   border-radius: 50%;
   background: #add136;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .main-circle,
 .main-circle-active {
@@ -156,6 +156,7 @@ main h2 {
   font-size: 20px;
   color: grey;
   margin-bottom: 35px;
+  line-height: 32px;
 }
 .main-container {
   padding-top: 40px;
@@ -165,87 +166,102 @@ main h2 {
   margin: 0 auto;
 }
 .main-tittle {
+  font-family: "Open Sans Light";
   font-size: 33px;
   font-weight: 300;
   letter-spacing: 0;
   color: #656565;
 }
 .main-container-wrapper {
+  margin-top: 77px;
   display: flex;
 }
 .main-img {
-  padding: 60px 70px 20px 65px;
+  padding: 82px 104px 20px 82px;
 }
 .main-content {
   text-align: left;
   padding-top: 45px;
 }
 .main-content h3 {
+  font-family: "Open Sans";
+  margin-top: 10px;
   font-size: 25px;
   font-weight: 400;
   letter-spacing: 0;
   color: #add136;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 .main-content p {
+  font-family: "Open Sans";
   font-size: 17px;
   font-weight: 400;
-  letter-spacing: 0;
+  line-height: 30px;
+  letter-spacing: 0.1px;
   color: #606060;
 }
 /*services*/
 .services {
   display: flex;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 88px;
+}
+.services-wrapper-left,
+.services-wrapper-right {
+  width: 50%;
 }
 .services-wrapper-left h3,
 .services-wrapper-right h3 {
-  font-size: 23px;
+  font-size: 26px;
   font-weight: 400;
-  letter-spacing: 0;
+  letter-spacing: 0.3px;
   color: #515151;
-  margin-bottom: 20px;
+  margin-bottom: 26px;
 }
 .services-wrapper-left p,
 .services-wrapper-right p {
+  font-family: "Open Sans";
   font-size: 17px;
   font-weight: 400;
+  line-height: 30px;
   letter-spacing: 0;
   color: #515151;
-  margin-bottom: 31px;
+  margin-bottom: 34px;
 }
 .services-wrapper-left a,
 .services-wrapper-right a {
-  padding: 19px 25px 19px 26px;
+  margin-left: 2px;
+  padding: 17px 25px 17px 26px;
   color: white;
   background: #26a6d1;
   border-radius: 10px;
+  font-family: "Open Sans Semibold";
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 0;
 }
 .services-wrapper-left {
   display: flex;
-  padding: 46px 73px 47px 5%;
+  padding: 38px 73px 47px 141px;
   background: #b3d7ff;
 }
 .services-wrapper-left img {
   margin-right: 45px;
-  margin-top: 38px;
+  margin-top: 44px;
 }
 .services-wrapper-right {
   display: flex;
-  padding: 46px 5% 47px 76px;
+  padding: 38px 5% 47px 76px;
   background: lightyellow;
 }
 .services-wrapper-right img {
   width: 101px;
   height: 92px;
-  margin-top: 38px;
+  margin-top: 54px;
   margin-right: 72px;
 }
 .services-wrapper-right a {
   background: #add136;
+  padding-right: 18px;
 }
 /*# sourceMappingURL=styles.css.map */
