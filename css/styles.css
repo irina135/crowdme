@@ -374,19 +374,27 @@ main h2 {
   display: flex;
   justify-content: center;
 }
-.card-line-left {
+.card-line-left,
+.card-line-left1 {
   width: 12.6%;
   height: 14px;
   background: #add136;
   border-bottom-left-radius: 4px;
   border-top-left-radius: 4px;
 }
-.card-line-right {
+.card-line-left1 {
+  width: 56%;
+}
+.card-line-right,
+.card-line-right1 {
   width: 71.66%;
   height: 14px;
   background: #e3e3e3;
   border-bottom-right-radius: 4px;
   border-top-right-radius: 4px;
+}
+.card-line-right1 {
+  width: 28%;
 }
 .card-info-container {
   display: flex;
@@ -421,5 +429,74 @@ main h2 {
 .card-link-link {
   width: 15px;
   margin-top: 5px;
+}
+/*reviews*/
+.reviews {
+  margin-top: -55px;
+  height: 670px;
+  padding-top: 130px;
+  background-image: url("../img/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.reviews h2 {
+  font-family: "Open Sans Semibold";
+  font-size: 39px;
+  color: #9ec02d;
+  margin-bottom: 36px;
+}
+.reviews p {
+  font-family: "Open Sans";
+  margin: 0 auto;
+  width: 70.2%;
+  font-size: 19px;
+  line-height: 30px;
+  color: #949494;
+  margin-bottom: 95px;
+}
+.reviews-container {
+  display: flex;
+  justify-content: space-between;
+  width: 73%;
+  margin: 0 auto;
+}
+.reviews-card {
+  width: 397px;
+}
+.reviews-background {
+  padding-top: 22px;
+  margin-bottom: 33px;
+  height: 146px;
+  border-radius: 8px;
+  background: white;
+}
+.reviews-background h3 {
+  font-family: "Open Sans Semibold";
+  font-size: 21px;
+  color: #9ec02d;
+}
+.reviews-card-text {
+  width: 319px;
+  margin: 0 auto;
+}
+.reviews-card-text p {
+  width: 100%;
+  font-family: "Open Sans";
+  font-size: 13px;
+  line-height: 23px;
+  color: #848484;
+}
+.reviews-img-container {
+  display: flex;
+  padding-left: 48px;
+}
+.reviews-name p {
+  width: 150px;
+  margin-top: 15px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #494949;
 }
 /*# sourceMappingURL=styles.css.map */
