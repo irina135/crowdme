@@ -499,4 +499,17 @@ main h2 {
   font-weight: 700;
   color: #494949;
 }
+footer {
+  padding-top: 45px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+footer img {
+  margin-bottom: 60px;
+}
+footer p {
+  font-family: "Open Sans";
+  font-size: 13px;
+  color: #848484;
+}
 /*# sourceMappingURL=styles.css.map */
