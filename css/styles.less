@@ -250,8 +250,11 @@ main {
 }
 .services-wrapper-left {
   display: flex;
-  padding: 38px 73px 57px 141px;
+  padding: 38px 73px 57px 10.8%;
   background: #b3d7ff;
+    @media (max-width: 1200px) {
+    padding-left: 5%;
+  }
   img {
     margin-right: 45px;
     margin-top: 44px;
@@ -301,6 +304,9 @@ main {
   width: 23.53%;
   padding-left: 9.3%;
   padding-top: 42px;
+   @media (max-width: 1200px) {
+    width: 30%;
+  }
   a {
     font-family: "Open Sans Semibold";
     font-size: 13px;
@@ -318,6 +324,10 @@ main {
   margin-left: 12.3%;
   margin-right: 12.3%;
   justify-content: space-between;
+   @media (max-width: 1200px) {
+    margin-left: 3%;
+     margin-right: 3%;
+  }
 }
 .card {
   position: relative;
@@ -466,6 +476,9 @@ main {
   justify-content: space-between;
   width: 73%;
   margin: 0 auto;
+  @media (max-width: 1200px){
+    width: 90%;
+  }
 }
 .reviews-card {
   width: 397px;
@@ -512,6 +525,10 @@ footer {
   text-align: center;
   img {
     margin-bottom: 60px;
+    @media (max-width: 1200px){
+      width: 980px;
+    }
+
   }
   p {
     font-family: "Open Sans";
