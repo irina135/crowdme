@@ -524,6 +524,11 @@ main h2 {
   border: #515151 1px solid;
   border-radius: 15px;
 }
+@media (max-width: 992px) {
+  .card {
+    width: 240px;
+  }
+}
 .card img {
   margin-bottom: 26px;
 }
@@ -534,6 +539,11 @@ main h2 {
   font-size: 17px;
   font-weight: 700;
   color: #484848;
+}
+@media (max-width: 992px) {
+  .card h3 {
+    font-size: 14px;
+  }
 }
 .card span {
   text-transform: uppercase;
@@ -546,6 +556,11 @@ main h2 {
   margin-left: 25px;
   margin-right: 25px;
   line-height: 23px;
+}
+@media (max-width: 992px) {
+  .card p {
+    font-size: 11px;
+  }
 }
 .card-new {
   position: absolute;
@@ -569,10 +584,24 @@ main h2 {
   border-radius: 5px;
   padding-top: 5px;
 }
+@media (max-width: 992px) {
+  .card-price {
+    width: 129px;
+    height: 25px;
+    left: 103px;
+    padding-top: 2px;
+    top: 185px;
+  }
+}
 .card-price p {
   font-size: 12px;
   font-weight: bold;
   color: white;
+}
+@media (max-width: 992px) {
+  .card-price p {
+    font-size: 10px;
+  }
 }
 .card-line-container {
   display: flex;
