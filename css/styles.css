@@ -674,11 +674,23 @@ main h2 {
   background-size: cover;
   text-align: center;
 }
+@media (max-width: 992px) {
+  .reviews {
+    padding-top: 100px;
+    height: 570px;
+  }
+}
 .reviews h2 {
   font-family: "Open Sans Semibold";
   font-size: 39px;
   color: #9ec02d;
   margin-bottom: 36px;
+}
+@media (max-width: 992px) {
+  .reviews h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
 }
 .reviews p {
   font-family: "Open Sans";
@@ -688,6 +700,13 @@ main h2 {
   line-height: 30px;
   color: #949494;
   margin-bottom: 95px;
+}
+@media (max-width: 992px) {
+  .reviews p {
+    font-size: 15px;
+    width: 80%;
+    margin-bottom: 50px;
+  }
 }
 .reviews-container {
   display: flex;
@@ -700,24 +719,39 @@ main h2 {
     width: 90%;
   }
 }
-.reviews-card {
-  width: 397px;
-}
 .reviews-background {
   padding-top: 22px;
   margin-bottom: 33px;
   height: 146px;
   border-radius: 8px;
   background: white;
+  width: 397px;
+}
+@media (max-width: 992px) {
+  .reviews-background {
+    width: 300px;
+    margin-bottom: 23px;
+  }
 }
 .reviews-background h3 {
   font-family: "Open Sans Semibold";
   font-size: 21px;
   color: #9ec02d;
 }
+@media (max-width: 992px) {
+  .reviews-background h3 {
+    font-size: 16px;
+  }
+}
 .reviews-card-text {
   width: 319px;
   margin: 0 auto;
+  text-align: center;
+}
+@media (max-width: 992px) {
+  .reviews-card-text {
+    width: 300px;
+  }
 }
 .reviews-card-text p {
   width: 100%;
@@ -725,6 +759,11 @@ main h2 {
   font-size: 13px;
   line-height: 23px;
   color: #848484;
+}
+@media (max-width: 992px) {
+  .reviews-card-text p {
+    font-size: 11px;
+  }
 }
 .reviews-img-container {
   display: flex;
@@ -736,6 +775,11 @@ main h2 {
   font-size: 17px;
   font-weight: 700;
   color: #494949;
+}
+@media (max-width: 992px) {
+  .reviews-name {
+    font-size: 12px;
+  }
 }
 footer {
   padding-top: 45px;
