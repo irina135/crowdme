@@ -601,6 +601,11 @@ main h2 {
   padding-top: 81px;
   padding-bottom: 47px;
 }
+@media (max-width: 768px) {
+  .featured_projects-tittle-container {
+    padding-top: 50px;
+  }
+}
 .featured_projects-tittle {
   width: 52%;
 }
@@ -621,6 +626,11 @@ main h2 {
     font-size: 25px;
   }
 }
+@media (max-width: 768px) {
+  .featured_projects-tittle h3 {
+    font-size: 20px;
+  }
+}
 .featured_projects-tittle p {
   font-family: "Open Sans";
   font-size: 17px;
@@ -632,6 +642,12 @@ main h2 {
 @media (max-width: 992px) {
   .featured_projects-tittle p {
     font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .featured_projects-tittle p {
+    font-size: 12px;
+    line-height: 23px;
   }
 }
 .featured_projects-btn {
@@ -658,6 +674,12 @@ main h2 {
   .featured_projects-btn a {
     font-size: 12px;
     padding: 12px 21px 16px 20px;
+  }
+}
+@media (max-width: 768px) {
+  .featured_projects-btn a {
+    font-size: 10px;
+    padding: 10px 10px 13px 10px;
   }
 }
 /*card-container*/
