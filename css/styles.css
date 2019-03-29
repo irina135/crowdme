@@ -151,6 +151,12 @@ a {
     padding-bottom: 140px;
   }
 }
+@media (max-width: 768px) {
+  .banner {
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+}
 .banner h1,
 .banner h2 {
   font-family: "Open Sans Semibold";
@@ -167,6 +173,12 @@ a {
   .banner h1,
   .banner h2 {
     font-size: 36px;
+  }
+}
+@media (max-width: 768px) {
+  .banner h1,
+  .banner h2 {
+    font-size: 30px;
   }
 }
 .banner h2 {
@@ -202,6 +214,12 @@ a {
   .banner-background {
     height: 526px;
     margin-top: -526px;
+  }
+}
+@media (max-width: 768px) {
+  .banner-background {
+    height: 436px;
+    margin-top: -436px;
   }
 }
 /*main*/
