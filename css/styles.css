@@ -765,12 +765,23 @@ main h2 {
     padding-top: 50px;
   }
 }
+@media (max-width: 576px) {
+  .featured_projects-tittle-container {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+}
 .featured_projects-tittle {
   width: 52%;
 }
 @media (max-width: 992px) {
   .featured_projects-tittle {
     width: 62%;
+  }
+}
+@media (max-width: 576px) {
+  .featured_projects-tittle {
+    width: 57%;
   }
 }
 .featured_projects-tittle h3 {
@@ -809,6 +820,12 @@ main h2 {
     line-height: 23px;
   }
 }
+@media (max-width: 576px) {
+  .featured_projects-tittle p {
+    font-size: 9px;
+    line-height: 18px;
+  }
+}
 .featured_projects-btn {
   width: 23.53%;
   padding-left: 9.3%;
@@ -817,6 +834,12 @@ main h2 {
 @media (max-width: 1200px) {
   .featured_projects-btn {
     width: 30%;
+  }
+}
+@media (max-width: 576px) {
+  .featured_projects-btn {
+    width: 40%;
+    padding-left: 5%;
   }
 }
 .featured_projects-btn a {
@@ -841,6 +864,12 @@ main h2 {
     padding: 10px 10px 13px 10px;
   }
 }
+@media (max-width: 576px) {
+  .featured_projects-btn a {
+    font-size: 9px;
+    padding: 8px 8px 10px 8px;
+  }
+}
 /*card-container*/
 .card-container {
   display: flex;
@@ -852,6 +881,11 @@ main h2 {
   .card-container {
     margin-left: 3%;
     margin-right: 3%;
+  }
+}
+@media (max-width: 576px) {
+  .card-container {
+    width: 62%;
   }
 }
 .card {
