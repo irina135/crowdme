@@ -239,7 +239,7 @@ a {
     font-size: 30px;
   }
 }
-@media (max-width: 568px) {
+@media (max-width: 576px) {
   .banner h1,
   .banner h2 {
     font-size: 17px;
@@ -252,7 +252,7 @@ a {
   line-height: 67px;
   margin-bottom: 34px;
 }
-@media (max-width: 568px) {
+@media (max-width: 576px) {
   .banner h2 {
     font-size: 15px;
     line-height: 35px;
@@ -1365,9 +1365,20 @@ footer img {
     margin-bottom: 20px;
   }
 }
+@media (max-width: 576px) {
+  footer img {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}
 footer p {
   font-family: "Open Sans";
   font-size: 13px;
   color: #848484;
+}
+@media (max-width: 576px) {
+  footer {
+    font-size: 10px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
