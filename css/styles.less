@@ -903,6 +903,11 @@ main {
     padding-top: 100px;
     height: 470px;
   }
+  @media (max-width: 576px) {
+    height: 570px;
+    margin-top: 0;
+    padding-top: 30px;
+  }
   h2 {
     font-family: "Open Sans Semibold";
     font-size: 39px;
@@ -915,6 +920,10 @@ main {
      @media (max-width: 768px) {
       font-size: 24px;
       margin-bottom: 15px;
+    }
+     @media (max-width: 576px) {
+      font-size: 17px;
+      margin-bottom: 10px;
     }
   }
   p {
@@ -934,6 +943,12 @@ main {
       font-size: 11px;
       margin-bottom: 35px;
     }
+        @media (max-width: 576px) {
+      font-size: 10px;
+          line-height: 18px;
+      margin-bottom: 35px;
+          width: 90%;
+    }
   }
 }
 .reviews-container {
@@ -943,6 +958,15 @@ main {
   margin: 0 auto;
   @media (max-width: 1200px){
     width: 90%;
+  }
+      @media (max-width: 576px) {
+     display: inline-block;
+        width: 100%;
+    }
+}
+.reviews-card {
+  @media (max-width: 576px){
+    margin-left: 10px;
   }
 }
 .reviews-background {
