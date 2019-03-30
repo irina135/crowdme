@@ -587,9 +587,20 @@ main h2 {
     padding-top: 40px;
   }
 }
+@media (max-width: 576px) {
+  .services {
+    display: inline-block;
+  }
+}
 .services-wrapper-left,
 .services-wrapper-right {
   width: 50%;
+}
+@media (max-width: 576px) {
+  .services-wrapper-left,
+  .services-wrapper-right {
+    width: 100%;
+  }
 }
 .services-wrapper-left h3,
 .services-wrapper-right h3 {
