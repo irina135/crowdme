@@ -11,14 +11,14 @@
 </head>
 <body>
 <header>
-    <div class="header-container">
+    <div id="header-container">
         <div class="header-logo">
             <img src="img/logo.png">
         </div>
         <div id="header-img-navicon">
                         &#9776;
                     </div>
-        <div class="header-nav">
+        <div id="header-nav" class="page-header__burger--active">
             <div class="header-nav-link">
                 <a href="#">HOME</a>
             </div>
@@ -35,9 +35,29 @@
                 <a href="#">FIND OUT MORE</a>
             </div>
         </div>
-        <div class="header-btn">
+        <div id="header-nav-sm" class="page-header__burger--active">
+             <ul class="header-nav-sm-container">
+                 <li>
+                     <a href="#">HOME</a>
+                 </li>
+                 <li>
+                     <a href="#">HOW IT WORKS</a>
+                 </li>
+                 <li>
+                     <a href="#">DISCOVER A PROJECT</a>
+                 </li>
+                 <li>
+                     <a href="#">BLOG</a>
+                 </li>
+                 <li>
+                     <a href="#">FIND OUT MORE</a>
+                 </li>
+             </ul>
+        </div>
+        <div id="header-btn">
             <a class="header-link" href="#">login</a>
         </div>
+
     </div>
 </header>
 
@@ -338,7 +358,16 @@
         Copyright &copy; 2001 - 2014  Cssauthor.com
     </p>
 </footer>
+<script src="vendors/jquery/dist/jquery.min.js"></script>
+<script src="vendors/pixlayout/jquery.pixlayout.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
 <script>
+     $(document).ready(function () {
+  $('#header-img-navicon').click(function(event) {
+            $('#header-nav-sm').toggleClass('page-header__burger--active');
+        });
+    });
+
 </script>
 </body>
 </html>
