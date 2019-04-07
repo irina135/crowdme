@@ -1135,7 +1135,14 @@ main h2 {
 @media (max-width: 768px) {
   .card-new p {
     font-size: 9px;
-    margin-top: -65px;
+    margin-top: -55px;
+  }
+}
+@media (max-width: 576px) {
+  .card-new p {
+    font-size: 9px;
+    margin-top: -55px;
+    color: white;
   }
 }
 @media (max-width: 992px) {
@@ -1289,6 +1296,11 @@ main h2 {
     font-size: 9px;
   }
 }
+@media (max-width: 576px) {
+  .card-link-text p {
+    font-size: 8px;
+  }
+}
 .card-link-link {
   width: 15px;
   margin-top: 5px;
@@ -1301,6 +1313,12 @@ main h2 {
 @media (max-width: 768px) {
   .card-link-link img {
     width: 5px;
+  }
+}
+@media (max-width: 576px) {
+  .card-link-link img {
+    width: 5px;
+    margin-top: -3px;
   }
 }
 /*reviews*/
