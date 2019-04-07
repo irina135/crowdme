@@ -4,7 +4,9 @@
     @media (max-width: 800px) {
     color: blue;
   }*/
-
+div {
+  cursor: default;
+}
 @font-face {
   font-family: "Open Sans";
   src: url("../fonts/opensans.ttf");
@@ -781,13 +783,14 @@ main {
     width: 100%;
   }
 }
-.card {
+.card1 {
   position: relative;
   text-align: left;
-  width: 300px;
+  width: 302px;
   height: 520px;
-  border: #515151 1px solid;
-  border-radius: 15px;
+  border: gainsboro 1px solid;
+  border-radius: 9px;
+  background: ghostwhite;
   @media (max-width: 992px) {
     width: 240px;
   }
@@ -1051,7 +1054,10 @@ main {
   width: 73%;
   margin: 0 auto;
   @media (max-width: 1200px){
-    width: 90%;
+    width: 80%;
+  }
+   @media (max-width: 768px){
+    width: 70%;
   }
       @media (max-width: 576px) {
      display: inline-block;
@@ -1121,6 +1127,9 @@ main {
 .reviews-img-container {
   display: flex;
   padding-left: 48px;
+  @media (max-width: 768px){
+    padding-left: 0;
+  }
   img {
      @media (max-width: 768px){
     width: 50px;

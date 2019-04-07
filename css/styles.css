@@ -4,6 +4,9 @@
     @media (max-width: 800px) {
     color: blue;
   }*/
+div {
+  cursor: default;
+}
 @font-face {
   font-family: "Open Sans";
   src: url("../fonts/opensans.ttf");
@@ -1005,40 +1008,41 @@ main h2 {
     width: 100%;
   }
 }
-.card {
+.card1 {
   position: relative;
   text-align: left;
-  width: 300px;
+  width: 302px;
   height: 520px;
-  border: #515151 1px solid;
-  border-radius: 15px;
+  border: gainsboro 1px solid;
+  border-radius: 9px;
+  background: ghostwhite;
 }
 @media (max-width: 992px) {
-  .card {
+  .card1 {
     width: 240px;
   }
 }
 @media (max-width: 768px) {
-  .card {
+  .card1 {
     width: 160px;
     height: 350px;
   }
 }
 @media (max-width: 576px) {
-  .card {
+  .card1 {
     margin: 0 auto;
     margin-bottom: 20px;
   }
 }
-.card img {
+.card1 img {
   margin-bottom: 26px;
 }
 @media (max-width: 768px) {
-  .card img {
+  .card1 img {
     width: 160px;
   }
 }
-.card h3 {
+.card1 h3 {
   margin-left: 25px;
   margin-bottom: 8px;
   font-family: "Open Sans Bold";
@@ -1047,21 +1051,21 @@ main h2 {
   color: #484848;
 }
 @media (max-width: 992px) {
-  .card h3 {
+  .card1 h3 {
     font-size: 13px;
     margin-bottom: 0;
   }
 }
 @media (max-width: 768px) {
-  .card h3 {
+  .card1 h3 {
     font-size: 12px;
     margin-left: 5px;
   }
 }
-.card span {
+.card1 span {
   text-transform: uppercase;
 }
-.card p {
+.card1 p {
   font-family: "Open Sans";
   font-size: 13px;
   font-weight: 400;
@@ -1071,12 +1075,12 @@ main h2 {
   line-height: 23px;
 }
 @media (max-width: 992px) {
-  .card p {
+  .card1 p {
     font-size: 11px;
   }
 }
 @media (max-width: 768px) {
-  .card p {
+  .card1 p {
     font-size: 9px;
     line-height: 18px;
     margin-left: 10px;
@@ -1334,7 +1338,12 @@ main h2 {
 }
 @media (max-width: 1200px) {
   .reviews-container {
-    width: 90%;
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .reviews-container {
+    width: 70%;
   }
 }
 @media (max-width: 576px) {
@@ -1421,6 +1430,11 @@ main h2 {
 .reviews-img-container {
   display: flex;
   padding-left: 48px;
+}
+@media (max-width: 768px) {
+  .reviews-img-container {
+    padding-left: 0;
+  }
 }
 @media (max-width: 768px) {
   .reviews-img-container img {
